@@ -1,27 +1,33 @@
+# MOTD
+fortune | cowthink
+
 # Export
-export PATH="/usr/local/bin:$PATH"
+# export PATH="/usr/local/bin:$PATH"
 export EDITOR='vim'
 
 # Alias
 ## github page - jekyll serve
 alias ghpjks='bundle exec jekyll serve'
 
+## jupyter notebook
+alias jn='jupyter notebook'
+
 ## source .bash_profile
 alias srcbpf='source ~/.bash_profile'
 alias srcz='source ~/.zshrc'
+alias srccstm='source ~/.custom-bash'
 
 ## hide & show files
 alias unhideFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
 ## directory shortcuts
-alias projectDir='cd /Users/tulakan/OneDrive/Projects'
-alias unityDir='cd ~/LocalProjects/unity3d'
 
 ## command
 #alias l='ls -tlcras'
 alias s='du -sh'
-alias mux='tmuxinator'
+#alias mux='tmuxinator' # deprecated move to tmux-resurrect
+. <(gr completion)
 
 ##########
 
@@ -42,25 +48,73 @@ preview() {
 }
 
 ## VS Code
-code() {
-    if [[ $# = 0 ]];
-    then
-        echo $PWD
-        open -a "Visual Studio Code" $PWD
-    else
-        [[ $1 = /* ]] && F="$1" || F="$PWD/${1#./}"
-        echo $F
-        open -a "Visual Studio Code" $F
-    fi
+code() { 
+    VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;
 }
-
 ##########
 
 # Some useful stuffs
+## image converter
+jpg2png() {
+    sips -s format png $1 --out "$(getfilename $1)".png
+    optipng "$(getfilename $1)".png
+}
+
+png2jpg() {
+    sips -s format jpeg $1 --out "$(getfilename $1)".jpeg
+    mv "$(getfilename $1)".jpeg "$(getfilename $1)".jpg
+    echo ".jpeg -> .jpg done"
+}
+
+## get filename
+getfilename() {
+    filename=$(basename "$1")
+    filename="${filename%.*}"
+    filename="$filename"
+    echo $filename
+}
+
 ## Song Trimmer
 ## trimmer <song> <start(sec)> <duration(sec)>
 trimmer() {
   ffmpeg -i "$1" -ss "$2" -t "$3" -acodec copy cut_"$1" 
+}
+
+## mp3 Converter
+## convert every songs in dir to mp3
+tomp3() {
+  # for folder in ~/Music/songs/*;
+  # do
+    for file in $PWD/*;
+    do
+      echo $file
+      if [[ "${file##*/}" == "original" || "${file##*/}" == "mp3" ]]; then
+        echo ${file##*/}" will not be converted."
+        echo "####################"
+        echo ""
+      else
+        if [ ! -d $PWD/mp3 ]; then
+          mkdir $PWD/mp3
+          echo $PWD"/mp3 is created"
+          echo "####################"
+          echo ""
+        fi
+
+        if [[ $file == *".wma"* || $file == *".webm"* || $file == *".m4a"* ]]; then
+          echo "converting ""${file##*/}"" to .mp3..."
+          ffmpeg -v quiet -i "$file" -acodec libmp3lame "${file%.*}"".mp3";
+          mv "${file%.*}"".mp3" $PWD/mp3/
+          echo "${file##*/}"".mp3"" is moved to /mp3"
+          echo "####################"
+          echo ""
+        else
+          echo "this file is not converted"
+          echo "####################"
+          echo ""
+        fi
+      fi
+    done
+  # done
 }
 
 ##########
@@ -72,6 +126,8 @@ chk-ytdl-dir() {
 if [ ! -d ~/Music/youtube-dl ]; then
   mkdir ~/Music/youtube-dl
   echo "created ~/Music/youtube-dl"
+  mkdir ~/Music/youtube-dl/videos
+  echo "created ~/Music/youtube-dl/videos"
 fi
 }
 
@@ -105,9 +161,10 @@ ytdl() {
       echo "With proxy.."
       youtube-dl -o "%(title)s.%(ext)s" -f "m4a" --proxy "" --no-check-certificate $2
     else
-      youtube-dl -o "%(title)s.%(ext)s" -f "m4a" --no-check-certificate $2
+      youtube-dl -o "%(title)s.%(ext)s" -f "bestaudio" --no-check-certificate $2
     fi
   elif [[ $1 == *"v"* ]]; then
+    cd ~/Music/youtube-dl/videos
     echo "Downloading video.."
     if [[ $1 == *"p"* ]]; then
       echo "With proxy.."

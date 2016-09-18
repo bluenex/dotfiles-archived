@@ -1,11 +1,14 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/tulakan/.oh-my-zsh
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
+ZSH_THEME="zhann"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -49,12 +52,19 @@ DISABLE_AUTO_TITLE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(gitfast web-search chucknorris tmuxinator)
+plugins=(web-search chucknorris tmuxinator docker)
 
 # User configuration
-
-export PATH="/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin"
+# add X11 and Tex paths
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin:/usr/local/Cellar/qt5/5.6.1/bin"
+# adb path
+export PATH=$PATH:~/.nexustools
+# added by Miniconda2 4.0.5 installer
+#export PATH="/Users/tulakan/miniconda2/bin:$PATH"
+export PATH="/Users/tulakan/miniconda3/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
+fpath=(/usr/local/share/zsh-completions $fpath)
+export DYLD_LIBRARY_PATH="/usr/local/opt/qt5/lib"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -89,3 +99,5 @@ source $ZSH/oh-my-zsh.sh
 ## Custom shell function
 source ~/.custom-bash
 
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

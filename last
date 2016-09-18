@@ -1,0 +1,20 @@
+pane	current_works	1	:emg_gyro	0	:-	1	:/Users/tulakan/LocalProjects/emg_gyro	0	zsh	:
+pane	current_works	1	:emg_gyro	0	:-	2	:/Users/tulakan/LocalProjects/emg_gyro	0	zsh	:
+pane	current_works	1	:emg_gyro	0	:-	3	:/Users/tulakan/LocalProjects/emg_gyro	1	zsh	:
+pane	current_works	2	:conf_paper	1	:*	1	:/Users/tulakan/LocalProjects/latex/paper_writing	0	zsh	:
+pane	current_works	2	:conf_paper	1	:*	2	:/Users/tulakan/LocalProjects/latex/paper_writing	0	zsh	:
+pane	current_works	2	:conf_paper	1	:*	3	:/Users/tulakan/LocalProjects/latex/paper_writing	1	zsh	:
+pane	current_works	3	:zsh	0	:	1	:/Users/tulakan	0	zsh	:
+pane	current_works	3	:zsh	0	:	2	:/Users/tulakan	1	zsh	:
+pane	presentation	1	:progress	0	:	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	0	zsh	:
+pane	presentation	1	:progress	0	:	2	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	0	zsh	:
+pane	presentation	1	:progress	0	:	3	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
+pane	presentation	2	:git_log	0	:-	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	git	:git logg
+pane	presentation	3	:gulp	1	:*	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
+window	current_works	1	0	:-	1bdd,204x51,0,0{73x51,0,0,1,130x51,74,0[130x24,74,0,2,130x26,74,25,3]}
+window	current_works	2	1	:*	f161,204x51,0,0{80x51,0,0,4,123x51,81,0[123x25,81,0,5,123x25,81,26,6]}
+window	current_works	3	0	:	dcd6,204x51,0,0{101x51,0,0,7,102x51,102,0,8}
+window	presentation	1	0	:	589a,204x51,0,0{80x51,0,0,9,123x51,81,0[123x25,81,0,10,123x25,81,26,12]}
+window	presentation	2	0	:-	5983,204x51,0,0,14
+window	presentation	3	1	:*	5982,204x51,0,0,13
+state	presentation	current_works
