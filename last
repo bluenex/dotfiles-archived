@@ -1,21 +1,27 @@
-pane	current_works	1	:emg_gyro	1	:*	1	:/Users/tulakan/LocalProjects/emg_gyro_delsys	0	zsh	:
-pane	current_works	1	:emg_gyro	1	:*	2	:/Users/tulakan/LocalProjects/emg_gyro_delsys	0	zsh	:
-pane	current_works	1	:emg_gyro	1	:*	3	:/Users/tulakan/LocalProjects/emg_gyro_delsys	1	zsh	:
-pane	current_works	2	:conf_paper	0	:-	1	:/Users/tulakan/LocalProjects/latex/paper_writing	0	zsh	:
-pane	current_works	2	:conf_paper	0	:-	2	:/Users/tulakan/LocalProjects/latex/paper_writing	1	zsh	:
-pane	current_works	2	:conf_paper	0	:-	3	:/Users/tulakan/LocalProjects/latex/paper_writing	0	zsh	:
-pane	current_works	3	:zsh	0	:	1	:/Users/tulakan	0	zsh	:
-pane	current_works	3	:zsh	0	:	2	:/Users/tulakan	1	zsh	:
-pane	current_works	3	:zsh	0	:	3	:/Users/tulakan/LocalProjects/temp/pubmedparser	0	zsh	:
+pane	blog	1	:bluenex	1	:*	1	:/Users/tulakan/LocalProjects/bluenex.github.io	1	zsh	:
+pane	blog	1	:bluenex	1	:*	2	:/Users/tulakan/LocalProjects/bluenex.github.io	0	zsh	:
+pane	blog	2	:tupleblog	0	:-	1	:/Users/tulakan/LocalProjects/tupleblog.github.io	1	zsh	:
+pane	blog	2	:tupleblog	0	:-	2	:/Users/tulakan/LocalProjects/tupleblog.github.io	0	zsh	:
+pane	current_works	1	:emg_gyro	0	:	1	:/Users/tulakan/LocalProjects/emg_gyro_delsys	0	zsh	:
+pane	current_works	1	:emg_gyro	0	:	2	:/Users/tulakan/LocalProjects/emg_gyro_delsys	0	zsh	:
+pane	current_works	1	:emg_gyro	0	:	3	:/Users/tulakan/LocalProjects/emg_gyro_delsys	1	zsh	:
+pane	current_works	2	:conf_paper	0	:-	1	:/Users/tulakan/LocalProjects/emb_conf	1	zsh	:
+pane	current_works	2	:conf_paper	0	:-	2	:/Users/tulakan/LocalProjects/emb_conf	0	zsh	:
+pane	current_works	2	:conf_paper	0	:-	3	:/Users/tulakan/LocalProjects/emb_conf	0	zsh	:
+pane	current_works	3	:zsh	1	:*	1	:/Users/tulakan	1	zsh	:
+pane	current_works	3	:zsh	1	:*	2	:/Users/tulakan	0	zsh	:
+pane	current_works	3	:zsh	1	:*	3	:/Users/tulakan	0	zsh	:
 pane	presentation	1	:progress	1	:*	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	0	zsh	:
 pane	presentation	1	:progress	1	:*	2	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	0	zsh	:
 pane	presentation	1	:progress	1	:*	3	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
-pane	presentation	2	:git_log	0	:-	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	git	:git logg
+pane	presentation	2	:git_log	0	:-	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
 pane	presentation	3	:gulp	0	:	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
-window	current_works	1	1	:*	98e3,204x51,0,0{80x51,0,0,1,123x51,81,0[123x25,81,0,3,123x25,81,26,18]}
-window	current_works	2	0	:-	f161,204x51,0,0{80x51,0,0,4,123x51,81,0[123x25,81,0,5,123x25,81,26,6]}
-window	current_works	3	0	:	d894,204x51,0,0{80x51,0,0,8,123x51,81,0[123x25,81,0,17,123x25,81,26,15]}
-window	presentation	1	1	:*	589a,204x51,0,0{80x51,0,0,9,123x51,81,0[123x25,81,0,10,123x25,81,26,12]}
-window	presentation	2	0	:-	5983,204x51,0,0,14
-window	presentation	3	0	:	5982,204x51,0,0,13
-state	current_works	presentation
+window	blog	1	1	:*	3964,137x14,0,0{68x14,0,0,33,68x14,69,0,34}
+window	blog	2	0	:-	b96b,137x14,0,0{68x14,0,0,36,68x14,69,0,37}
+window	current_works	1	0	:	133a,204x51,0,0{80x51,0,0,21,123x51,81,0[123x25,81,0,22,123x25,81,26,23]}
+window	current_works	2	0	:-	9353,204x51,0,0{80x51,0,0,24,123x51,81,0[123x25,81,0,25,123x25,81,26,26]}
+window	current_works	3	1	:*	136d,204x51,0,0{80x51,0,0,27,123x51,81,0[123x25,81,0,28,123x25,81,26,29]}
+window	presentation	1	1	:*	532d,204x51,0,0{80x51,0,0,10,123x51,81,0[123x25,81,0,11,123x25,81,26,12]}
+window	presentation	2	0	:-	5982,204x51,0,0,13
+window	presentation	3	0	:	5983,204x51,0,0,14
+state	blog	current_works
