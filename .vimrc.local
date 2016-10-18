@@ -1,2 +1,3 @@
 set wrap linebreak nolist
 autocmd filetype crontab setlocal nobackup nowritebackup
+color peaksea

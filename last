@@ -1,31 +1,32 @@
-pane	blog	1	:bluenex	1	:*	1	:/Users/tulakan/LocalProjects/bluenex.github.io	0	zsh	:
-pane	blog	1	:bluenex	1	:*	2	:/Users/tulakan/LocalProjects/bluenex.github.io	1	zsh	:
-pane	blog	2	:tupleblog	0	:-	1	:/Users/tulakan/LocalProjects/tupleblog.github.io	0	zsh	:
-pane	blog	2	:tupleblog	0	:-	2	:/Users/tulakan/LocalProjects/tupleblog.github.io	1	zsh	:
-pane	blog	2	:tupleblog	0	:-	3	:/Users/tulakan/Downloads/for_new_blog/IEEEtranBST2	0	zsh	:
-pane	current_works	1	:emg_gyro	1	:*	1	:/Users/tulakan/LocalProjects/emg_gyro_delsys	0	zsh	:
-pane	current_works	1	:emg_gyro	1	:*	2	:/Users/tulakan/LocalProjects/emg_gyro_delsys	1	zsh	:
-pane	current_works	1	:emg_gyro	1	:*	3	:/Users/tulakan/LocalProjects/emg_gyro_delsys	0	zsh	:
-pane	current_works	2	:conf_paper	0	:	1	:/Users/tulakan/LocalProjects/emb_conf	0	zsh	:
-pane	current_works	2	:conf_paper	0	:	2	:/Users/tulakan/LocalProjects/emb_conf	1	zsh	:
-pane	current_works	2	:conf_paper	0	:	3	:/Users/tulakan/LocalProjects/emb_conf	0	zsh	:
-pane	current_works	3	:zsh	0	:	1	:/Users/tulakan/LocalProjects	0	zsh	:
-pane	current_works	3	:zsh	0	:	2	:/Users/tulakan/Music/youtube-dl/thai-old-song	1	zsh	:
-pane	current_works	3	:zsh	0	:	3	:/Users/tulakan/Music/youtube-dl/thai-old-song	0	zsh	:
-pane	current_works	4	:django	0	:-	1	:/Users/tulakan/LocalProjects/django_apps/poll_app	0	zsh	:
-pane	current_works	4	:django	0	:-	2	:/Users/tulakan/LocalProjects/django_apps/poll_app	1	zsh	:
-pane	presentation	1	:progress	0	:	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
-pane	presentation	1	:progress	0	:	2	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	0	zsh	:
-pane	presentation	1	:progress	0	:	3	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	0	zsh	:
-pane	presentation	2	:git_log	0	:-	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
+pane	blog	1	:bluenex	0	:-	1	:/Users/tulakan/LocalProjects/bluenex.github.io	1	zsh	:
+pane	blog	1	:bluenex	0	:-	2	:/Users/tulakan/LocalProjects/bluenex.github.io	0	zsh	:
+pane	blog	2	:tupleblog	1	:*	1	:/Users/tulakan/LocalProjects/tupleblog.github.io	1	zsh	:
+pane	blog	2	:tupleblog	1	:*	2	:/Users/tulakan/LocalProjects/tupleblog.github.io/images/post/latexieee	0	zsh	:
+pane	blog	2	:tupleblog	1	:*	3	:/Users/tulakan/Downloads/for_new_blog/IEEEtranBST2	0	zsh	:
+pane	current_works	1	:emg_gyro	0	:	1	:/Users/tulakan/LocalProjects/emg_gyro_delsys	0	zsh	:
+pane	current_works	1	:emg_gyro	0	:	2	:/Users/tulakan/LocalProjects/emg_gyro_delsys	0	zsh	:
+pane	current_works	1	:emg_gyro	0	:	3	:/Users/tulakan/LocalProjects/emg_gyro_delsys	1	zsh	:
+pane	current_works	2	:conf_paper	1	:*	1	:/Users/tulakan/LocalProjects/emb_conf	1	zsh	:
+pane	current_works	2	:conf_paper	1	:*	2	:/Users/tulakan/LocalProjects/emb_conf	0	zsh	:
+pane	current_works	2	:conf_paper	1	:*	3	:/Users/tulakan/LocalProjects/emb_conf	0	zsh	:
+pane	current_works	3	:zsh	0	:-	1	:/Users/tulakan	0	zsh	:
+pane	current_works	3	:zsh	0	:-	2	:/Users/tulakan/LocalProjects	1	zsh	:
+pane	current_works	3	:zsh	0	:-	3	:/Users/tulakan/Music/youtube-dl/thai-old-song	0	zsh	:
+pane	current_works	4	:vote_app	0	:	1	:/Users/tulakan/LocalProjects/temp/robot_voting	0	zsh	:
+pane	current_works	4	:vote_app	0	:	2	:/Users/tulakan/LocalProjects/temp/robot_voting	0	zsh	:
+pane	current_works	4	:vote_app	0	:	3	:/Users/tulakan/LocalProjects/temp/robot_voting/data/robotpic	1	zsh	:
+pane	presentation	1	:progress	0	:-	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	0	zsh	:
+pane	presentation	1	:progress	0	:-	2	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	0	zsh	:
+pane	presentation	1	:progress	0	:-	3	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
+pane	presentation	2	:git_log	0	:	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
 pane	presentation	3	:gulp	1	:*	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
-window	blog	1	1	:*	dccd,204x51,0,0{101x51,0,0,1,102x51,102,0,2}
-window	blog	2	0	:-	e2eb,204x51,0,0{101x51,0,0,3,102x51,102,0[102x25,102,0,4,102x25,102,26,21]}
-window	current_works	1	1	:*	b182,204x51,0,0{80x51,0,0,5,123x51,81,0[123x25,81,0,6,123x25,81,26,7]}
-window	current_works	2	0	:	1953,204x51,0,0{80x51,0,0,8,123x51,81,0[123x25,81,0,9,123x25,81,26,10]}
-window	current_works	3	0	:	d335,204x51,0,0{80x51,0,0,11,123x51,81,0[123x25,81,0,12,123x25,81,26,13]}
-window	current_works	4	0	:-	b208,204x51,0,0{102x51,0,0,19,101x51,103,0,20}
-window	presentation	1	0	:	534f,204x51,0,0{80x51,0,0,14,123x51,81,0[123x25,81,0,15,123x25,81,26,16]}
-window	presentation	2	0	:-	5986,204x51,0,0,17
-window	presentation	3	1	:*	5987,204x51,0,0,18
-state	current_works	blog
+window	blog	1	0	:-	4664,178x43,0,0{88x43,0,0,1,89x43,89,0,2}
+window	blog	2	1	:*	7675,176x41,0,0{87x41,0,0,3,88x41,88,0[88x24,88,0,4,88x16,88,25,5]}
+window	current_works	1	0	:	9968,178x43,0,0{67x43,0,0,6,110x43,68,0[110x21,68,0,7,110x21,68,22,8]}
+window	current_works	2	1	:*	e277,176x41,0,0{66x41,0,0,9,109x41,67,0[109x20,67,0,10,109x20,67,21,11]}
+window	current_works	3	0	:-	5175,176x41,0,0{65x41,0,0,12,110x41,66,0[110x20,66,0,13,110x20,66,21,14]}
+window	current_works	4	0	:	b157,178x43,0,0{89x43,0,0,15,88x43,90,0[88x21,90,0,16,88x21,90,22,17]}
+window	presentation	1	0	:-	ecd1,167x14,0,0{62x14,0,0,18,104x14,63,0[104x6,63,0,19,104x7,63,7,20]}
+window	presentation	2	0	:	dcf0,167x14,0,0,21
+window	presentation	3	1	:*	de51,178x43,0,0,22
+state	blog	current_works
