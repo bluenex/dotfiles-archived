@@ -3,26 +3,26 @@ pane	blog	1	:bluenex	0	:-	2	:/Users/tulakan/LocalProjects/bluenex.github.io	1	zs
 pane	blog	2	:tupleblog	1	:*	1	:/Users/tulakan/LocalProjects/tupleblog.github.io	0	zsh	:
 pane	blog	2	:tupleblog	1	:*	2	:/Users/tulakan/LocalProjects/tupleblog.github.io/images/post/latexieee	0	zsh	:
 pane	blog	2	:tupleblog	1	:*	3	:/Users/tulakan/Downloads/for_new_blog/IEEEtranBST2	1	zsh	:
-pane	current_works	1	:emg_gyro	0	:-	1	:/Users/tulakan/LocalProjects/emg_gyro_delsys	0	zsh	:
-pane	current_works	1	:emg_gyro	0	:-	2	:/Users/tulakan/LocalProjects/emg_gyro_delsys	0	zsh	:
-pane	current_works	1	:emg_gyro	0	:-	3	:/Users/tulakan/LocalProjects/emg_gyro_delsys	1	zsh	:
-pane	current_works	2	:conf_paper	0	:	1	:/Users/tulakan/LocalProjects/emb_conf	1	zsh	:
-pane	current_works	2	:conf_paper	0	:	2	:/Users/tulakan/LocalProjects/emb_conf	0	zsh	:
-pane	current_works	2	:conf_paper	0	:	3	:/Users/tulakan/LocalProjects/emb_conf/img	0	zsh	:
-pane	current_works	3	:PR2ÙÍkb≠f¨¬loù‹¨ÌA∞≤2Ó≤™ÀW†•´÷x·Sz„BÁ<rp,ªiiÖÑ*…¯è±ˆì+Ø÷)àîhˇÇπrÆ”Ú	1	:*	1	:/Users/tulakan/LocalProjects/temp/map/map	0	zsh	:
-pane	current_works	3	:PR2ÙÍkb≠f¨¬loù‹¨ÌA∞≤2Ó≤™ÀW†•´÷x·Sz„BÁ<rp,ªiiÖÑ*…¯è±ˆì+Ø÷)àîhˇÇπrÆ”Ú	1	:*	2	:/Users/tulakan/LocalProjects/temp/map/map	0	zsh	:
-pane	current_works	3	:PR2ÙÍkb≠f¨¬loù‹¨ÌA∞≤2Ó≤™ÀW†•´÷x·Sz„BÁ<rp,ªiiÖÑ*…¯è±ˆì+Ø÷)àîhˇÇπrÆ”Ú	1	:*	3	:/Users/tulakan/LocalProjects/temp/map/map	1	zsh	:
+pane	current_works	1	:emg_gyro	0	:	1	:/Users/tulakan/LocalProjects/emg_gyro_delsys	0	zsh	:
+pane	current_works	1	:emg_gyro	0	:	2	:/Users/tulakan/LocalProjects/emg_gyro_delsys	0	zsh	:
+pane	current_works	1	:emg_gyro	0	:	3	:/Users/tulakan/LocalProjects/emg_gyro_delsys	1	zsh	:
+pane	current_works	2	:conf_paper	0	:-	1	:/Users/tulakan/LocalProjects/emb_conf	0	zsh	:
+pane	current_works	2	:conf_paper	0	:-	2	:/Users/tulakan/LocalProjects/emb_conf	0	zsh	:
+pane	current_works	2	:conf_paper	0	:-	3	:/Users/tulakan/LocalProjects/emb_conf/img	1	zsh	:
+pane	current_works	3	:zsh	1	:*	1	:/Users/tulakan	1	zsh	:
+pane	current_works	3	:zsh	1	:*	2	:/Users/tulakan/LocalProjects/unity3d/ThesisProject	0	zsh	:
+pane	current_works	3	:zsh	1	:*	3	:/Users/tulakan	0	zsh	:
 pane	presentation	1	:progress	0	:-	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	0	zsh	:
 pane	presentation	1	:progress	0	:-	2	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	0	zsh	:
 pane	presentation	1	:progress	0	:-	3	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
 pane	presentation	2	:git_log	0	:	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
 pane	presentation	3	:gulp	1	:*	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
-window	blog	1	0	:-	09fa,80x24,0,0{39x24,0,0,1,40x24,40,0,2}
-window	blog	2	1	:*	e87c,80x24,0,0{39x24,0,0,3,40x24,40,0[40x16,40,0,4,40x7,40,17,5]}
-window	current_works	1	0	:-	33c4,176x41,0,0{68x41,0,0,6,107x41,69,0[107x22,69,0,7,107x18,69,23,8]}
-window	current_works	2	0	:	3a0d,176x41,0,0{87x41,0,0,9,88x41,88,0[88x22,88,0,10,88x18,88,23,11]}
+window	blog	1	0	:-	1a3b,176x41,0,0{87x41,0,0,1,88x41,88,0,2}
+window	blog	2	1	:*	7675,176x41,0,0{87x41,0,0,3,88x41,88,0[88x24,88,0,4,88x16,88,25,5]}
+window	current_works	1	0	:	33c4,176x41,0,0{68x41,0,0,6,107x41,69,0[107x22,69,0,7,107x18,69,23,8]}
+window	current_works	2	0	:-	3a0d,176x41,0,0{87x41,0,0,9,88x41,88,0[88x22,88,0,10,88x18,88,23,11]}
 window	current_works	3	1	:*	d5b3,176x41,0,0{111x41,0,0,12,64x41,112,0[64x21,112,0,13,64x19,112,22,14]}
-window	presentation	1	0	:-	d65a,80x24,0,0{18x24,0,0,18,61x24,19,0[61x12,19,0,19,61x11,19,13,20]}
-window	presentation	2	0	:	d960,80x24,0,0,21
-window	presentation	3	1	:*	d961,80x24,0,0,22
+window	presentation	1	0	:-	fb34,176x41,0,0{66x41,0,0,15,109x41,67,0[109x20,67,0,16,109x20,67,21,17]}
+window	presentation	2	0	:	59d7,176x41,0,0,18
+window	presentation	3	1	:*	59d8,176x41,0,0,19
 state	current_works	blog
