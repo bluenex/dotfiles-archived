@@ -3,25 +3,24 @@ pane	blog	1	:bluenex	0	:-	2	:/Users/tulakan/LocalProjects/bluenex.github.io	1	zs
 pane	blog	2	:tupleblog	1	:*	1	:/Users/tulakan/LocalProjects/tupleblog.github.io	0	zsh	:
 pane	blog	2	:tupleblog	1	:*	2	:/Users/tulakan/LocalProjects/tupleblog.github.io/images/post/latexieee	0	zsh	:
 pane	blog	2	:tupleblog	1	:*	3	:/Users/tulakan/Downloads/for_new_blog/IEEEtranBST2	1	zsh	:
-pane	current_works	1	:emg_gyro	0	:	1	:/Users/tulakan/LocalProjects/emg_gyro_delsys	0	zsh	:
-pane	current_works	1	:emg_gyro	0	:	2	:/Users/tulakan/LocalProjects/emg_gyro_delsys	0	zsh	:
-pane	current_works	1	:emg_gyro	0	:	3	:/Users/tulakan/LocalProjects/emg_gyro_delsys	1	python3.5	:/Users/tulakan/miniconda3/bin/python /Users/tulakan/miniconda3/bin/jupyter-notebook
-pane	current_works	2	:conf_paper	1	:*	1	:/Users/tulakan/LocalProjects/emb_conf	1	zsh	:
-pane	current_works	2	:conf_paper	1	:*	2	:/Users/tulakan/LocalProjects/emb_conf	0	zsh	:
-pane	current_works	2	:conf_paper	1	:*	3	:/Users/tulakan/LocalProjects/emb_conf/documents	0	zsh	:
-pane	current_works	3	:zsh	0	:-	1	:/Volumes/Bluenex2/Videos/Overwatch/Captures	1	zsh	:
-pane	current_works	3	:zsh	0	:-	2	:/Users/tulakan/LocalProjects/unity3d/ThesisProject	0	zsh	:
-pane	current_works	3	:zsh	0	:-	3	:/Users/tulakan/LocalProjects/unity3d/ThesisProject	0	zsh	:
-pane	current_works	4	:game-result	0	:	1	:/Users/tulakan/Google Drive/_THESIS/Log Files/Sarapee Hospital/analysis	0	zsh	:
-pane	current_works	4	:game-result	0	:	2	:/Users/tulakan/Google Drive/_THESIS/Log Files/Sarapee Hospital/analysis	0	zsh	:
-pane	current_works	4	:game-result	0	:	3	:/Users/tulakan/Google Drive/_THESIS/Log Files/Sarapee Hospital/analysis	1	zsh	:
+pane	current_works	0	:zsh	1	:*	1	:/Users/tulakan/.ssh	1	zsh	:
+pane	current_works	0	:zsh	1	:*	2	:/Users/tulakan/LocalProjects/temp/awesome-thai-girls	0	zsh	:
+pane	current_works	1	:emg_gyro	0	:-	1	:/Users/tulakan/LocalProjects/emg_gyro_delsys	1	zsh	:
+pane	current_works	1	:emg_gyro	0	:-	2	:/Users/tulakan/LocalProjects/emg_gyro_delsys	0	zsh	:
+pane	current_works	1	:emg_gyro	0	:-	3	:/Users/tulakan/LocalProjects/emg_gyro_delsys	0	zsh	:
+pane	current_works	2	:conf_paper	0	:	1	:/Users/tulakan/LocalProjects/emb_conf	1	zsh	:
+pane	current_works	2	:conf_paper	0	:	2	:/Users/tulakan/LocalProjects/emb_conf	0	zsh	:
+pane	current_works	2	:conf_paper	0	:	3	:/Users/tulakan/LocalProjects/emb_conf/img	0	zsh	:
+pane	current_works	3	:thesis_doc	0	:	1	:/Users/tulakan/LocalProjects/thesis_doc	0	zsh	:
+pane	current_works	3	:thesis_doc	0	:	2	:/Users/tulakan/LocalProjects/thesis_doc	1	zsh	:
+pane	current_works	3	:thesis_doc	0	:	3	:/Users/tulakan/LocalProjects/thesis_doc	0	zsh	:
+pane	current_works	4	:game-result	0	:	1	:/Users/tulakan/LocalProjects/gyrogame_analysis	0	zsh	:
+pane	current_works	4	:game-result	0	:	2	:/Users/tulakan/LocalProjects/gyrogame_analysis	0	zsh	:
+pane	current_works	4	:game-result	0	:	3	:/Users/tulakan/LocalProjects/gyrogame_analysis	1	zsh	:
 pane	current_works	5	:meedee-rpi	0	:	1	:/Users/tulakan/LocalProjects/aimlab/meedee-rpi	1	zsh	:
 pane	current_works	5	:meedee-rpi	0	:	2	:/Users/tulakan/LocalProjects/aimlab/meedee-rpi	0	zsh	:
-pane	current_works	5	:meedee-rpi	0	:	3	:/Users/tulakan/LocalProjects/aimlab/meedee-rpi/node-dev/nodejs-backend/dxlNode	0	zsh	:
+pane	current_works	5	:meedee-rpi	0	:	3	:/Users/tulakan	0	zsh	:
 pane	current_works	5	:meedee-rpi	0	:	4	:/Users/tulakan/LocalProjects/aimlab/meedee-rpi/node-dev/nodejs-backend/dxlNode	0	zsh	:
-pane	current_works	6	:rpi158	0	:	1	:/Users/tulakan	0	zsh	:
-pane	current_works	6	:rpi158	0	:	2	:/Users/tulakan/Music/youtube-dl/videos	1	zsh	:
-pane	current_works	6	:rpi158	0	:	3	:/Users/tulakan	0	zsh	:
 pane	presentation	1	:progress	0	:-	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	0	zsh	:
 pane	presentation	1	:progress	0	:-	2	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	0	zsh	:
 pane	presentation	1	:progress	0	:-	3	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
@@ -29,13 +28,13 @@ pane	presentation	2	:git_log	0	:	1	:/Users/tulakan/LocalProjects/revealjs/progre
 pane	presentation	3	:gulp	1	:*	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
 window	blog	1	0	:-	4664,178x43,0,0{88x43,0,0,1,89x43,89,0,2}
 window	blog	2	1	:*	a548,178x43,0,0{88x43,0,0,3,89x43,89,0[89x25,89,0,4,89x17,89,26,5]}
-window	current_works	1	0	:	443a,178x43,0,0{72x43,0,0,6,105x43,73,0[105x26,73,0,7,105x16,73,27,8]}
-window	current_works	2	1	:*	ecb3,178x43,0,0{91x43,0,0,9,86x43,92,0[86x26,92,0,10,86x16,92,27,11]}
-window	current_works	3	0	:-	8e31,178x43,0,0{90x43,0,0,12,87x43,91,0[87x25,91,0,13,87x17,91,26,14]}
+window	current_works	0	1	:*	0189,178x43,0,0[178x21,0,0,13,178x21,0,22,14]
+window	current_works	1	0	:-	443a,178x43,0,0{72x43,0,0,6,105x43,73,0[105x26,73,0,7,105x16,73,27,8]}
+window	current_works	2	0	:	ecb3,178x43,0,0{91x43,0,0,9,86x43,92,0[86x26,92,0,10,86x16,92,27,11]}
+window	current_works	3	0	:	61ca,178x43,0,0{80x43,0,0,30,97x43,81,0[97x21,81,0,31,97x21,81,22,32]}
 window	current_works	4	0	:	13c3,178x43,0,0{83x43,0,0,15,94x43,84,0[94x29,84,0,16,94x13,84,30,17]}
 window	current_works	5	0	:	fab5,178x43,0,0{89x43,0,0[89x21,0,0,18,89x21,0,22,29],88x43,90,0[88x21,90,0,19,88x21,90,22,25]}
-window	current_works	6	0	:	d1b8,178x43,0,0{89x43,0,0,26,88x43,90,0[88x21,90,0,27,88x21,90,22,28]}
 window	presentation	1	0	:-	0bd2,178x43,0,0{67x43,0,0,20,110x43,68,0[110x21,68,0,21,110x21,68,22,22]}
 window	presentation	2	0	:	de52,178x43,0,0,23
 window	presentation	3	1	:*	de53,178x43,0,0,24
-state	current_works	
+state	current_works	presentation
