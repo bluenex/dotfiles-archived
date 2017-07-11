@@ -99,6 +99,7 @@ source $ZSH/oh-my-zsh.sh
 ## Custom shell function
 source ~/.custom-bash
 
+export OPENNLP=/Users/tulakan/Downloads/apache-opennlp-1.7.2/
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}

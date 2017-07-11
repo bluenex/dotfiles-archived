@@ -1,40 +1,33 @@
-pane	blog	1	:bluenex	0	:-	1	:/Users/tulakan/LocalProjects/bluenex.github.io	0	zsh	:
-pane	blog	1	:bluenex	0	:-	2	:/Users/tulakan/LocalProjects/bluenex.github.io	1	zsh	:
-pane	blog	2	:tupleblog	1	:*	1	:/Users/tulakan/LocalProjects/tupleblog.github.io	0	zsh	:
-pane	blog	2	:tupleblog	1	:*	2	:/Users/tulakan/LocalProjects/tupleblog.github.io/images/post/latexieee	0	zsh	:
-pane	blog	2	:tupleblog	1	:*	3	:/Users/tulakan/Downloads/for_new_blog/IEEEtranBST2	1	zsh	:
-pane	current_works	0	:zsh	1	:*	1	:/Users/tulakan/.ssh	1	zsh	:
-pane	current_works	0	:zsh	1	:*	2	:/Users/tulakan/LocalProjects/temp/awesome-thai-girls	0	zsh	:
-pane	current_works	1	:emg_gyro	0	:-	1	:/Users/tulakan/LocalProjects/emg_gyro_delsys	1	zsh	:
-pane	current_works	1	:emg_gyro	0	:-	2	:/Users/tulakan/LocalProjects/emg_gyro_delsys	0	zsh	:
-pane	current_works	1	:emg_gyro	0	:-	3	:/Users/tulakan/LocalProjects/emg_gyro_delsys	0	zsh	:
-pane	current_works	2	:conf_paper	0	:	1	:/Users/tulakan/LocalProjects/emb_conf	1	zsh	:
-pane	current_works	2	:conf_paper	0	:	2	:/Users/tulakan/LocalProjects/emb_conf	0	zsh	:
-pane	current_works	2	:conf_paper	0	:	3	:/Users/tulakan/LocalProjects/emb_conf/img	0	zsh	:
-pane	current_works	3	:thesis_doc	0	:	1	:/Users/tulakan/LocalProjects/thesis_doc	0	zsh	:
-pane	current_works	3	:thesis_doc	0	:	2	:/Users/tulakan/LocalProjects/thesis_doc	1	zsh	:
-pane	current_works	3	:thesis_doc	0	:	3	:/Users/tulakan/LocalProjects/thesis_doc	0	zsh	:
-pane	current_works	4	:game-result	0	:	1	:/Users/tulakan/LocalProjects/gyrogame_analysis	0	zsh	:
-pane	current_works	4	:game-result	0	:	2	:/Users/tulakan/LocalProjects/gyrogame_analysis	0	zsh	:
-pane	current_works	4	:game-result	0	:	3	:/Users/tulakan/LocalProjects/gyrogame_analysis	1	zsh	:
-pane	current_works	5	:meedee-rpi	0	:	1	:/Users/tulakan/LocalProjects/aimlab/meedee-rpi	1	zsh	:
-pane	current_works	5	:meedee-rpi	0	:	2	:/Users/tulakan/LocalProjects/aimlab/meedee-rpi	0	zsh	:
-pane	current_works	5	:meedee-rpi	0	:	3	:/Users/tulakan	0	zsh	:
-pane	current_works	5	:meedee-rpi	0	:	4	:/Users/tulakan/LocalProjects/aimlab/meedee-rpi/node-dev/nodejs-backend/dxlNode	0	zsh	:
-pane	presentation	1	:progress	0	:-	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	0	zsh	:
-pane	presentation	1	:progress	0	:-	2	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	0	zsh	:
-pane	presentation	1	:progress	0	:-	3	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
+pane	blog	1	:bluenex	1	:*	1	:/Users/tulakan/LocalProjects/jekyll_blogs/bluenex.github.io	0	zsh	:
+pane	blog	1	:bluenex	1	:*	2	:/Users/tulakan/LocalProjects/jekyll_blogs/bluenex.github.io	0	zsh	:
+pane	blog	1	:bluenex	1	:*	3	:/Users/tulakan/LocalProjects/jekyll_blogs/bluenex.github.io	1	zsh	:
+pane	blog	2	:tupleblog	0	:-	1	:/Users/tulakan/LocalProjects/jekyll_blogs/tupleblog.github.io	0	zsh	:
+pane	blog	2	:tupleblog	0	:-	2	:/Users/tulakan/LocalProjects/jekyll_blogs/tupleblog.github.io	0	zsh	:
+pane	blog	2	:tupleblog	0	:-	3	:/Users/tulakan/LocalProjects/jekyll_blogs/tupleblog.github.io	1	zsh	:
+pane	pixi-games	0	:zsh	0	:-	1	:/Users/tulakan	1	zsh	:
+pane	pixi-games	0	:zsh	0	:-	2	:/Users/tulakan	0	zsh	:
+pane	pixi-games	0	:zsh	0	:-	3	:/Users/tulakan	0	zsh	:
+pane	pixi-games	1	:zsh	1	:*	1	:/Users/tulakan/LocalProjects/pixi-electron	1	zsh	:
+pane	pixi-games	1	:zsh	1	:*	2	:/Users/tulakan/LocalProjects/pixi-electron	0	zsh	:
+pane	pixi-games	1	:zsh	1	:*	3	:/Users/tulakan/LocalProjects/pixi-electron	0	zsh	:
+pane	pixi-games	3	:temp	0	:	1	:/Users/tulakan/LocalProjects/temp/webplot	0	zsh	:
+pane	pixi-games	3	:temp	0	:	2	:/Users/tulakan/LocalProjects/aimlab/meedee-rpi	0	zsh	:
+pane	pixi-games	3	:temp	0	:	3	:/Users/tulakan/LocalProjects/temp/webplot	1	zsh	:
+pane	pixi-games	4	:meedee-rpi	0	:	1	:/Users/tulakan	0	zsh	:
+pane	pixi-games	4	:meedee-rpi	0	:	2	:/Users/tulakan	0	zsh	:
+pane	pixi-games	4	:meedee-rpi	0	:	3	:/Users/tulakan/LocalProjects/aimlab/meedee-rpi	1	zsh	:
+pane	presentation	1	:progress	1	:*	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
+pane	presentation	1	:progress	1	:*	2	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	0	zsh	:
+pane	presentation	1	:progress	1	:*	3	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	0	zsh	:
 pane	presentation	2	:git_log	0	:	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
-pane	presentation	3	:gulp	1	:*	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
-window	blog	1	0	:-	4664,178x43,0,0{88x43,0,0,1,89x43,89,0,2}
-window	blog	2	1	:*	a548,178x43,0,0{88x43,0,0,3,89x43,89,0[89x25,89,0,4,89x17,89,26,5]}
-window	current_works	0	1	:*	0189,178x43,0,0[178x21,0,0,13,178x21,0,22,14]
-window	current_works	1	0	:-	443a,178x43,0,0{72x43,0,0,6,105x43,73,0[105x26,73,0,7,105x16,73,27,8]}
-window	current_works	2	0	:	ecb3,178x43,0,0{91x43,0,0,9,86x43,92,0[86x26,92,0,10,86x16,92,27,11]}
-window	current_works	3	0	:	61ca,178x43,0,0{80x43,0,0,30,97x43,81,0[97x21,81,0,31,97x21,81,22,32]}
-window	current_works	4	0	:	13c3,178x43,0,0{83x43,0,0,15,94x43,84,0[94x29,84,0,16,94x13,84,30,17]}
-window	current_works	5	0	:	fab5,178x43,0,0{89x43,0,0[89x21,0,0,18,89x21,0,22,29],88x43,90,0[88x21,90,0,19,88x21,90,22,25]}
-window	presentation	1	0	:-	0bd2,178x43,0,0{67x43,0,0,20,110x43,68,0[110x21,68,0,21,110x21,68,22,22]}
-window	presentation	2	0	:	de52,178x43,0,0,23
-window	presentation	3	1	:*	de53,178x43,0,0,24
-state	current_works	presentation
+pane	presentation	3	:gulp	0	:-	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
+window	blog	1	1	:*	b14d,158x38,0,0{78x38,0,0,1,79x38,79,0[79x19,79,0,2,79x18,79,20,29]}
+window	blog	2	0	:-	57d6,158x38,0,0{78x38,0,0,3,79x38,79,0[79x23,79,0,4,79x14,79,24,5]}
+window	pixi-games	0	0	:-	9f31,158x38,0,0{81x38,0,0,6,76x38,82,0[76x18,82,0,7,76x19,82,19,8]}
+window	pixi-games	1	1	:*	2075,158x38,0,0{80x38,0,0,30,77x38,81,0[77x18,81,0,31,77x19,81,19,32]}
+window	pixi-games	3	0	:	1c18,158x38,0,0{80x38,0,0,15,77x38,81,0[77x27,81,0,16,77x10,81,28,17]}
+window	pixi-games	4	0	:	9524,158x38,0,0{81x38,0,0,18,76x38,82,0[76x18,82,0,19,76x19,82,19,20]}
+window	presentation	1	1	:*	c5ef,158x38,0,0{57x38,0,0,24,100x38,58,0[100x19,58,0,25,100x18,58,20,26]}
+window	presentation	2	0	:	e716,158x38,0,0,27
+window	presentation	3	0	:-	e717,158x38,0,0,28
+state	presentation	pixi-games
