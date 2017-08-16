@@ -4,3 +4,6 @@ Host github.com
 Host bitbucket.org
   Hostname altssh.bitbucket.org
   Port 443 
+Host robot
+  Hostname 192.168.43.1
+  User pi  
