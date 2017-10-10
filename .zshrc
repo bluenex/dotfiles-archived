@@ -92,3 +92,5 @@ export PATH=$homebrew:$PATH
 # Initialize rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+# added by Miniconda3 4.0.5 installer
+export PATH="/Users/tulakan/miniconda3/bin:$PATH"

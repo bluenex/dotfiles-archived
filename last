@@ -1,43 +1,61 @@
-pane	aimrobot-dev	0	:robot	1	:*	1	:/Users/tulakan	0	zsh	:
-pane	aimrobot-dev	0	:robot	1	:*	2	:/Users/tulakan	1	ssh	:ssh robot
-pane	aimrobot-dev	0	:robot	1	:*	3	:/Users/tulakan	0	zsh	:
-pane	aimrobot-dev	1	:zsh	0	:-	1	:/Users/tulakan	1	zsh	:
-pane	aimrobot-dev	1	:zsh	0	:-	2	:/Users/tulakan	0	zsh	:
-pane	aimrobot-dev	1	:zsh	0	:-	3	:/Users/tulakan	0	zsh	:
-pane	aimrobot-dev	2	:..e_for_elderly	0	:	1	:/Users/tulakan/LocalProjects/game_for_elderly	1	zsh	:
-pane	aimrobot-dev	2	:..e_for_elderly	0	:	2	:/Users/tulakan/LocalProjects/game_for_elderly	0	zsh	:
-pane	aimrobot-dev	2	:..e_for_elderly	0	:	3	:/Users/tulakan/LocalProjects/game_for_elderly	0	zsh	:
-pane	blog	1	:bluenex.gh	0	:-	1	:/Users/tulakan/LocalProjects/jekyll_blogs/bluenex.github.io	1	zsh	:
-pane	blog	1	:bluenex.gh	0	:-	2	:/Users/tulakan/LocalProjects/jekyll_blogs/bluenex.github.io	0	zsh	:
-pane	blog	1	:bluenex.gh	0	:-	3	:/Users/tulakan/LocalProjects/jekyll_blogs/bluenex.github.io	0	zsh	:
-pane	blog	2	:..log.github.io	1	:*	1	:/Users/tulakan/LocalProjects/jekyll_blogs/tupleblog.github.io	0	zsh	:
-pane	blog	2	:..log.github.io	1	:*	2	:/Users/tulakan/LocalProjects/jekyll_blogs/tupleblog.github.io	0	zsh	:
-pane	blog	2	:..log.github.io	1	:*	3	:/Users/tulakan/LocalProjects/jekyll_blogs/tupleblog.github.io	0	zsh	:
-pane	blog	2	:..log.github.io	1	:*	4	:/Users/tulakan/LocalProjects/jekyll_blogs/tupleblog.github.io	1	zsh	:
-pane	blog	3	:atg	0	:	1	:/Users/tulakan/LocalProjects/temp/awesome-thai-girls	0	zsh	:
-pane	blog	3	:atg	0	:	2	:/Users/tulakan/LocalProjects/temp/awesome-thai-girls	0	zsh	:
-pane	blog	3	:atg	0	:	3	:/Users/tulakan/LocalProjects/temp/awesome-thai-girls	1	zsh	:
+pane	aimrobot-dev	0	:ssh-airobot	0	:	1	:/Users/tulakan/LocalProjects/remote-ftp	0	zsh	:
+pane	aimrobot-dev	0	:ssh-airobot	0	:	2	:/Users/tulakan/Downloads/exercise_vids	0	zsh	:
+pane	aimrobot-dev	0	:ssh-airobot	0	:	3	:/Users/tulakan	1	zsh	:
+pane	aimrobot-dev	1	:meedee-rpi	0	:	1	:/Users/tulakan/LocalProjects/aimlab/meedee-rpi/graphql-server/src/database/path2word_generator	0	zsh	:
+pane	aimrobot-dev	1	:meedee-rpi	0	:	2	:/Users/tulakan/LocalProjects/aimlab/meedee-rpi	1	zsh	:
+pane	aimrobot-dev	1	:meedee-rpi	0	:	3	:/Users/tulakan	0	zsh	:
+pane	aimrobot-dev	2	:meedee-mobile	0	:-	1	:/Users/tulakan	0	zsh	:
+pane	aimrobot-dev	2	:meedee-mobile	0	:-	2	:/Users/tulakan/LocalProjects/aimlab	1	zsh	:
+pane	aimrobot-dev	2	:meedee-mobile	0	:-	3	:/Users/tulakan/LocalProjects/aimlab	0	zsh	:
+pane	aimrobot-dev	3	:go	1	:*	1	:/Users/tulakan/LocalProjects/elderly-robot-server/gui/imgs	0	zsh	:
+pane	aimrobot-dev	3	:go	1	:*	2	:/Users/tulakan/LocalProjects/elderly-robot-server	0	zsh	:
+pane	aimrobot-dev	3	:go	1	:*	3	:/Users/tulakan/LocalProjects/elderly-robot-server	1	zsh	:
+pane	blog	1	:bluenex	1	:*	1	:/Users/tulakan/LocalProjects/jekyll_blogs/bluenex.github.io	0	zsh	:
+pane	blog	1	:bluenex	1	:*	2	:/Users/tulakan/LocalProjects/jekyll_blogs/bluenex.github.io	0	zsh	:
+pane	blog	1	:bluenex	1	:*	3	:/Users/tulakan/LocalProjects/jekyll_blogs/bluenex.github.io	1	zsh	:
+pane	blog	2	:tupleblog	0	:	1	:/Users/tulakan/LocalProjects/jekyll_blogs/tupleblog.github.io	0	zsh	:
+pane	blog	2	:tupleblog	0	:	2	:/Users/tulakan/LocalProjects/jekyll_blogs/tupleblog.github.io	0	zsh	:
+pane	blog	2	:tupleblog	0	:	3	:/Users/tulakan/LocalProjects/jekyll_blogs/tupleblog.github.io	0	zsh	:
+pane	blog	2	:tupleblog	0	:	4	:/Users/tulakan/LocalProjects/jekyll_blogs/tupleblog.github.io	1	zsh	:
+pane	blog	3	:atg	0	:-	1	:/Users/tulakan/LocalProjects/temp/awesome-thai-girls	0	zsh	:
+pane	blog	3	:atg	0	:-	2	:/Users/tulakan/LocalProjects/temp/awesome-thai-girls	0	zsh	:
+pane	blog	3	:atg	0	:-	3	:/Users/tulakan/LocalProjects/temp/awesome-thai-girls	1	zsh	:
 pane	presentation	1	:..gress_monthly	1	:*	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	0	zsh	:
 pane	presentation	1	:..gress_monthly	1	:*	2	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	0	zsh	:
 pane	presentation	1	:..gress_monthly	1	:*	3	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
 pane	presentation	2	:..gress_monthly	0	:	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
 pane	presentation	3	:..gress_monthly	0	:-	1	:/Users/tulakan/LocalProjects/revealjs/progress_monthly	1	zsh	:
-pane	trivial	1	:bundle	1	:*	1	:/Users/tulakan/LocalProjects/aimlab-docs	0	zsh	:
-pane	trivial	1	:bundle	1	:*	2	:/Users/tulakan/LocalProjects/aimlab-docs/docs	1	ruby	:/Users/tulakan/.rbenv/versions/2.4.1/bin/jekyll serve    
-pane	trivial	1	:bundle	1	:*	3	:/Users/tulakan/LocalProjects/aimlab-docs	0	zsh	:
-pane	trivial	2	:~	0	:-	1	:/Users/tulakan	1	zsh	:
-pane	trivial	3	:../temp/kkipynb	0	:	1	:/Users/tulakan/LocalProjects/temp/kkipynb	0	zsh	:
-pane	trivial	3	:../temp/kkipynb	0	:	2	:/Users/tulakan/LocalProjects/temp/kkipynb	1	zsh	:
-window	aimrobot-dev	0	1	:*	5a2b,158x38,0,0{81x38,0,0,1,76x38,82,0[76x18,82,0,2,76x19,82,19,3]}
-window	aimrobot-dev	1	0	:-	d374,158x38,0,0{80x38,0,0,4,77x38,81,0[77x18,81,0,5,77x19,81,19,7]}
-window	aimrobot-dev	2	0	:	b361,158x38,0,0{81x38,0,0,11,76x38,82,0[76x18,82,0,12,76x19,82,19,13]}
-window	blog	1	0	:-	7f43,158x38,0,0{78x38,0,0,14,79x38,79,0[79x19,79,0,15,79x18,79,20,16]}
-window	blog	2	1	:*	3d19,158x38,0,0{78x38,0,0[78x19,0,0,17,78x18,0,20,34],79x38,79,0[79x23,79,0,18,79x14,79,24,19]}
-window	blog	3	0	:	c054,158x38,0,0{80x38,0,0,20,77x38,81,0[77x18,81,0,21,77x19,81,19,22]}
-window	presentation	1	1	:*	45e7,158x38,0,0{57x38,0,0,23,100x38,58,0[100x19,58,0,24,100x18,58,20,25]}
-window	presentation	2	0	:	e715,158x38,0,0,26
-window	presentation	3	0	:-	e716,158x38,0,0,27
-window	trivial	1	1	:*	81c0,158x38,0,0{80x38,0,0[80x20,0,0,28,80x17,0,21,29],77x38,81,0,30}
-window	trivial	2	0	:-	6711,158x38,0,0,31
-window	trivial	3	0	:	f0ae,158x38,0,0{79x38,0,0,32,78x38,80,0,33}
+pane	thesis	1	:game_results	0	:-	1	:/Users/tulakan/LocalProjects/thesis_stuffs/thesis_data/gyrogame_analysis	0	zsh	:
+pane	thesis	1	:game_results	0	:-	2	:/Users/tulakan/LocalProjects/thesis_stuffs/thesis_data/gyrogame_analysis	0	zsh	:
+pane	thesis	1	:game_results	0	:-	3	:/Users/tulakan/LocalProjects/thesis_stuffs/thesis_data/gyrogame_analysis	1	zsh	:
+pane	thesis	2	:zsh	1	:*	1	:/Users/tulakan/LocalProjects/thesis_stuffs/thesis_doc/thesis_writing	0	zsh	:
+pane	thesis	2	:zsh	1	:*	2	:/Users/tulakan/LocalProjects/thesis_stuffs/thesis_data/gyrogame_analysis	1	zsh	:
+pane	trivial	1	:aimlab-docs	0	:	1	:/Users/tulakan/LocalProjects/aimlab-docs	0	zsh	:
+pane	trivial	1	:aimlab-docs	0	:	2	:/Users/tulakan/LocalProjects/aimlab-docs/docs	0	zsh	:
+pane	trivial	1	:aimlab-docs	0	:	3	:/Users/tulakan/LocalProjects/aimlab-docs	1	zsh	:
+pane	trivial	2	:kkipynb	0	:	1	:/Users/tulakan/LocalProjects/temp/kkipynb	0	zsh	:
+pane	trivial	2	:kkipynb	0	:	2	:/Users/tulakan/LocalProjects/temp/kkipynb	0	zsh	:
+pane	trivial	2	:kkipynb	0	:	3	:/Users/tulakan/LocalProjects/temp/kkipynb	1	zsh	:
+pane	trivial	3	:ginraidee	1	:*	1	:/Users/tulakan/LocalProjects/ginraidee	0	zsh	:
+pane	trivial	3	:ginraidee	1	:*	2	:/Users/tulakan/LocalProjects/ginraidee	0	zsh	:
+pane	trivial	3	:ginraidee	1	:*	3	:/Users/tulakan/LocalProjects/ginraidee	1	zsh	:
+pane	trivial	4	:tagtag	0	:-	1	:/Users/tulakan/LocalProjects/tag-tag	0	zsh	:
+pane	trivial	4	:tagtag	0	:-	2	:/Users/tulakan/LocalProjects/tag-tag	0	zsh	:
+pane	trivial	4	:tagtag	0	:-	3	:/Users/tulakan/LocalProjects/tag-tag	1	zsh	:
+window	aimrobot-dev	0	0	:	d070,158x38,0,0{80x38,0,0,1,77x38,81,0[77x18,81,0,2,77x19,81,19,3]}
+window	aimrobot-dev	1	0	:	c9be,158x38,0,0{79x38,0,0,4,78x38,80,0[78x18,80,0,5,78x19,80,19,6]}
+window	aimrobot-dev	2	0	:-	5678,158x38,0,0{80x38,0,0,7,77x38,81,0[77x18,81,0,8,77x19,81,19,9]}
+window	aimrobot-dev	3	1	:*	d795,158x38,0,0{77x38,0,0,10,80x38,78,0[80x19,78,0,11,80x18,78,20,12]}
+window	blog	1	1	:*	bf02,158x38,0,0{78x38,0,0,13,79x38,79,0[79x19,79,0,14,79x18,79,20,15]}
+window	blog	2	0	:	3cd9,158x38,0,0{78x38,0,0[78x19,0,0,16,78x18,0,20,17],79x38,79,0[79x23,79,0,18,79x14,79,24,19]}
+window	blog	3	0	:-	c054,158x38,0,0{80x38,0,0,20,77x38,81,0[77x18,81,0,21,77x19,81,19,22]}
+window	presentation	1	1	:*	d539,80x24,0,0{18x24,0,0,23,61x24,19,0[61x12,19,0,24,61x11,19,13,25]}
+window	presentation	2	0	:	d965,80x24,0,0,26
+window	presentation	3	0	:-	d966,80x24,0,0,27
+window	thesis	1	0	:-	6258,158x38,0,0{80x38,0,0,28,77x38,81,0[77x18,81,0,29,77x19,81,19,30]}
+window	thesis	2	1	:*	b05d,158x38,0,0{80x38,0,0,31,77x38,81,0,44}
+window	trivial	1	0	:	28a7,158x38,0,0{80x38,0,0[80x21,0,0,32,80x16,0,22,33],77x38,81,0,34}
+window	trivial	2	0	:	a6cc,158x38,0,0{79x38,0,0,35,78x38,80,0[78x20,80,0,36,78x17,80,21,37]}
+window	trivial	3	1	:*	7f6d,158x38,0,0{80x38,0,0,38,77x38,81,0[77x28,81,0,39,77x9,81,29,40]}
+window	trivial	4	0	:-	40d6,158x38,0,0{80x38,0,0,41,77x38,81,0[77x18,81,0,42,77x19,81,19,43]}
 state	aimrobot-dev	trivial
