@@ -5,7 +5,15 @@ fortune | cowthink
 # export PATH="/usr/local/bin:$PATH"
 export EDITOR='vim'
 
+# ffmpeg build from source for robot for elderly
+# export PATH=$PATH:/usr/local/ffmpeg/bin
+# export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/ffmpeg/lib
+export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/ffmpeg/lib/pkgconfig/
+
 # Alias
+## flask app
+alias run_flask='export LC_ALL=en_US.UTF-8 && export LANG=en_US.UTF-8 && export FLASK_APP=main.py && export FLASK_DEBUG=1 && flask run --host=0.0.0.0 --port 5000'
+
 ## github page - jekyll serve
 alias ghpjks='bundle exec jekyll serve'
 
