@@ -11,6 +11,9 @@ export EDITOR='vim'
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/ffmpeg/lib/pkgconfig/
 
 # Alias
+## static ffmpeg
+alias ffmpeg-static=~/Downloads/ffmpeg-20180207-8318bf1-macos64-static/bin/ffmpeg
+
 ## flask app
 alias run_flask='export LC_ALL=en_US.UTF-8 && export LANG=en_US.UTF-8 && export FLASK_APP=main.py && export FLASK_DEBUG=1 && flask run --host=0.0.0.0 --port 5000'
 
@@ -38,6 +41,25 @@ alias s='du -sh'
 . <(gr completion)
 
 ##########
+
+# Videos
+## increase mp4 fps
+## upfps_mp4 <filename> <target_fps>
+upfps_mp4() {
+  # convert mp4 to hevc
+  ffmpeg-static -loglevel panic -i "$1" $(getfilename "$1").hevc
+  # increase fps to hevc
+  ffmpeg-static -loglevel panic -i $(getfilename "$1").hevc -filter "minterpolate='fps="$2"'" $(getfilename "$1")_"$2"fps.hevc
+  # convert back to mp4
+  ffmpeg-static -loglevel panic -i $(getfilename "$1")_"$2"fps.hevc $(getfilename "$1")_"$2"fps.mp4
+  # print to tell if it's finish
+  echo "DONE CONVERTING $1 to $(getfilename "$1")_"$2"fps.mp4"
+}
+
+## get fps
+getfps() {
+  ffmpeg -i "$1" 2>&1 | sed -n "s/.*, \(.*\) fp.*/\1/p";
+}
 
 # App shortcuts
 ## Safari
