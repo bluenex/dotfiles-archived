@@ -20,6 +20,7 @@ vscode=~/.vscode/settings.json
 cron_autoupdate=~/cron_autoupdate.sh
 cron_backupdotfiles=~/cron_backupdotfiles.sh
 hammerspoon=~/.hammerspoon
+ohmyzshcustomtheme=~/.oh-my-zsh/custom/themes/dpoggi-timestamp.zsh-theme
 
 #### copy function
 ## log copy result to the log file 
@@ -72,6 +73,8 @@ cpfile $cron_autoupdate
 cpfile $cron_backupdotfiles
 echo "=========== HAMMERSPOON ===========" >> $backupdot_logf
 cpdir $hammerspoon
+echo "========== OHMYZSH THEME ==========" >> $backupdot_logf
+cpdir $ohmyzshcustomtheme
 echo "========== PUSH TO GITHUB =========" >> $backupdot_logf
 ## push to git repo 
 cd $backup_path
