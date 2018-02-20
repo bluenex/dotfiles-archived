@@ -74,7 +74,7 @@ cpfile $cron_backupdotfiles
 echo "=========== HAMMERSPOON ===========" >> $backupdot_logf
 cpdir $hammerspoon
 echo "========== OHMYZSH THEME ==========" >> $backupdot_logf
-cpdir $ohmyzshcustomtheme
+cpfile $ohmyzshcustomtheme
 echo "========== PUSH TO GITHUB =========" >> $backupdot_logf
 ## push to git repo 
 cd $backup_path
