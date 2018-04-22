@@ -1,3 +1,7 @@
+# ARCHIVED
+
+I no longer do manual backup anymore, so this repo is archived. The way I currently use to manage dotfiles now can be found at https://github.com/bluenex/dotfiles, which is a fork from super cool dotfiles repo of [Cătălin](https://github.com/alrra/dotfiles).
+
 # DOTFILES COLLECTION
 
 ## INTRO
